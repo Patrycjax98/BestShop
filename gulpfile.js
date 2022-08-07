@@ -28,6 +28,7 @@ function watcher(done) {
 
     gulp.watch(entryPath + "/js/*.js", gulp.series(reload));
 
+
     done();
 }
 
